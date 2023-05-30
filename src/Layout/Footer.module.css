@@ -1,0 +1,40 @@
+.FooterContainer{
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1f2b36;
+    color: white;
+    
+}
+
+.footerSpan{
+    color: #FF7F50;
+}
+
+.FooterContainer a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.FooterContainer a:hover {
+    color: #FF7F50;
+}
+
+.contactFooter svg{
+    font-size: 1.3em;
+    margin-right: 15px;
+    cursor: pointer;
+    
+}
+
+.contactFooter svg:hover{
+    color: #FF7F50;
+}
+
+.goUp{
+    margin-left: 40px;
+    cursor: pointer;
+}

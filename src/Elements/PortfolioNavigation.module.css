@@ -1,0 +1,24 @@
+
+.divStyle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.circle{
+    width: 1.2vw;
+    height: 1.2vw;
+    border-radius: 50%;
+    cursor: pointer ;
+    border: none;
+    background-color: #FF7F50;
+}
+
+.circle:hover{
+    background-color: #b35c3d;
+    border: 1px gold solid;
+}
+
+.active {
+    background-color: gold;
+}

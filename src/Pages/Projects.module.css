@@ -1,0 +1,78 @@
+.projectContainer {
+    text-align: center;
+    height: 100vh;
+}
+
+.projectMain {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.PortfoliosContainer {
+    width: 90vw;
+    height: 80vh;
+}
+
+.PortfoliosContainer h3{
+    font-size: 1.5em;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.PortfoliosContainer img{
+    width: 55vw;
+    height: 65vh;
+    border-radius: 12px;
+}
+
+.PortfolioContent{
+    display: flex;
+    justify-content: space-around;
+}
+
+.linkTo{
+    text-decoration: underline;
+    cursor: pointer;
+    color: inherit;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+
+
+.Content {
+    display: flex;
+    padding: 2%;
+    border: 2px solid #FF7F50;
+    border-radius: 12px;
+    width: 15vw;
+    font-size: 1.2em;
+}
+
+.tech {
+    width: 15vw;
+    border: 2px solid #FF7F50;
+    border-radius: 12px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.techItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+}
+
+.techItem svg{
+    font-size: 2em
+}
+

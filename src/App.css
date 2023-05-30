@@ -1,0 +1,14 @@
+* {
+  font-family: sans-serif;
+
+}
+
+body {
+  background-color: #273746;
+  color: white;
+}
+
+.dark-mode{
+    background-color: white;
+    color: black;
+  }
