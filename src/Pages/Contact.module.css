@@ -1,0 +1,95 @@
+.ContactContainer{
+    text-align: center;
+    height: 100vh;
+
+}
+
+.ContactMap{
+    display: flex;
+}
+
+.contactForm{
+    margin-top: 8%;
+    margin-left: 4%;
+    width: 50vw;
+    height: 70vh;
+}
+
+.contactForm ul {
+    padding: 0;
+    margin: 0;
+}
+
+.contactForm li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-bottom: 1%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Message {
+    font-size: 2em;
+    color: #FF7F50;
+}
+
+.half {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.nameEmail{
+    width: 25vw;
+    height: 6vh;
+    margin: 0 4%;
+    font-size: 1.3em;
+    border: 2px solid #FF7F50;
+    border-radius: 2px;
+    outline: #b35938;
+
+}
+
+.subject {
+    width: 40vw;
+    height: 6vh;
+    font-size: 1.3em;
+    border: 2px solid #FF7F50;
+    border-radius: 2px;
+    outline: #b35938;
+}
+
+.textArea{
+    width: 40vw;
+    height: 30vh;
+    font-size: 1.3em;
+    border: 2px solid #FF7F50;
+    border-radius: 2px;
+    outline: #b35938;
+}
+
+.submitBtn{
+    margin-top: 1.5%;
+    font-size: 1.5em;
+    width: 8vw;
+    height: 6vh;
+    cursor: pointer;
+    background-color: #FF7F50;
+    color: white;
+    border: none;
+    border-radius: 4%;
+}
+
+.submitBtn:hover {
+    background-color: #b35938;
+    border: 2px solid #FF7F50;
+}
+
+.returnMessage{
+    font-size: 1em;
+}

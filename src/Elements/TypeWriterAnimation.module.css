@@ -1,0 +1,35 @@
+.typewriter {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(0, end), blink-caret 1s step-end infinite;
+    overflow: hidden;
+    display: flex;
+}
+
+.typewriter span{
+    font-size: 1.1em;
+}
+
+.border{
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.border.fade {
+    opacity: 0;
+}
+
+@keyframes fade {
+    from { opacity: 100;}
+    to { opacity: 20;}
+}
+
+@keyframes typing {
+    from { width: 0}
+    to {width: 100%;}
+}
+@keyframes blink-caret {
+    from, to {border-color: transparent;}
+}

@@ -1,0 +1,151 @@
+.navbarContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    background-color: #1f2b36;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.visible {
+    display: none;
+}
+
+.hidden{
+    transform: translateY(-100%) 1s;
+}
+
+.menuIcon{
+    position: fixed;
+    font-size: 2.3em;
+    left: 2%;
+    margin-top: 0%;
+    cursor: pointer;
+    animation: rotateIcon 1s ease-in-out;
+}
+
+.menuIcon svg:hover{
+    color: #FF7F50;
+    font-size: 1.1em;
+}
+
+.IconMenu{
+    max-width: 3em;
+    max-height: 1em;
+    overflow: hidden;
+    transform: scale(0.9);
+    transition: transform 1s ease;
+}
+
+.Active {
+    overflow: visible;
+    max-width: 3em;
+    max-height: 1em;
+    overflow: visible;
+    transform: scale(1);
+    
+}
+
+@keyframes scaleAnimation {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 50px;
+    }
+}
+
+/* Quando aparecer */
+@keyframes rotateIcon {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.navbarContainer h1{
+    font-family: 'Source Code Pro', monospace;
+    cursor: pointer;
+}
+
+.navbarContainer h1:hover {
+    color:#FF7F50;
+}
+
+.item {
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+}
+
+.item:hover {
+    color: #FF7F50;
+}
+
+.Profiles{
+    display: flex;
+    align-items: center;
+   
+}
+
+.Profiles a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Profiles svg {
+    font-size: 1.5em;
+    margin-right: 8px;
+}
+
+.Routes a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Components{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+  font-size: 1.2em;
+}
+
+.Components svg{
+    font-size: 1.2em;
+}
+
+.Components li {
+    list-style: none;
+    margin-right: 2%;
+}
+
+.toFooter{
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+
+.toFooter2{
+    list-style: none;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.toFooter2 a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.toFooter2:hover{
+    color: #FF7F50;
+}
+
+
+
+
