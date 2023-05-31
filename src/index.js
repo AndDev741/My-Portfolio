@@ -8,7 +8,7 @@ import {BrowserRouter as Router, Route, Switch, Link, withRouter} from 'react-ro
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename='/Portfolio'>
     <App />
     </Router>
 );
