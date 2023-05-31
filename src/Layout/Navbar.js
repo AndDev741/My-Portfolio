@@ -4,7 +4,6 @@ import { FaHiking, FaHome, FaRegUser, FaReact, FaRegHandPointDown } from 'react-
 import { MdOutgoingMail } from 'react-icons/md'
 import { BiMenu } from 'react-icons/bi' 
 //Extensions
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import { Link, animateScroll as scroll } from 'react-scroll';
 import { useState, useEffect } from 'react';
 //Pages
