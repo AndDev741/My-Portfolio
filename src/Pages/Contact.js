@@ -24,7 +24,7 @@ function Contact() {
                 e.target.reset()
 
             }, (error) => {
-                 error = 'Email not sent, try another contact font'
+                 error = 'Email not sent, please try another contact font'
                 setMessage(error)
             })
     }

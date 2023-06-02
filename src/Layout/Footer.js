@@ -7,7 +7,7 @@ import { Link } from 'react-scroll'
 function Footer() {
     return(
         <div className={styles.FooterContainer}>
-            <h4 id='footer'>Made from zero and with love by AndDev</h4>
+            <h4 id='footer' className={styles.MadeZero}>Made from zero and with love by AndDev</h4>
             <h4>Copyright © 2023 <span className={styles.footerSpan}>-AndDev</span> </h4>
             <div className={styles.contactFooter}>
                 <a href='https://www.linkedin.com/in/anddev-%E3%83%84-b9915b275/?locale=en_US' target='_blank'> <FaLinkedin/> </a>

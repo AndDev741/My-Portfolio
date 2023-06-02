@@ -1,3 +1,5 @@
+@media screen and (min-width: 900px) {
+    
 .navbarContainer{
     display: flex;
     flex-direction: row;
@@ -145,7 +147,116 @@
 .toFooter2:hover{
     color: #FF7F50;
 }
+}
+
+/* Small screens */
+
+@media screen and (max-width: 900px){
+        
+.navbarContainer{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: #1f2b36;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.menuIcon{
+    position: absolute;
+    font-size: 1.8em;
+    left: 2%;
+    margin-top: 0%;
+    cursor: pointer;
+    animation: rotateIcon 1s ease-in-out;
+}
+
+.IconMenu{
+    color: white;
+    max-width: 3em;
+    max-height: 1em;
+    overflow: visible;
+    position: absolute;
+    left: 40vw;
+    top: -6.9vh;
+    
+}
+
+.responsiveIcons{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: -40%;
+    margin-left: 40%;
+    
+}
+
+.Active {
+   
+    max-width: 0.9em;
+    max-height: 1em;
+    overflow: hidden;
+}
+
+.navbarContainer h1{
+    font-family: 'Source Code Pro', monospace;
+    cursor: pointer;
+}
+
+.navbarContainer h1:hover {
+    color:#FF7F50;
+}
+
+.item {
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 20%;
+}
+
+.item:hover {
+    color: #FF7F50;
+}
+
+.Profiles{
+    display: flex;
+    align-items: center;
+}
+
+.Profiles a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Profiles svg {
+    font-size: 1.5em;
+    margin-right: 8px;
+}
+
+.Routes a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Components{
+  display: none;
+}
+
+.Components svg{
+    font-size: 1.2em;
+}
+
+.Components li {
+    list-style: none;
+    margin-right: 2%;
+}
+
+.toFooter2{
+    display: none;
+}
 
 
+}
 
 

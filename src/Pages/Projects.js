@@ -110,9 +110,13 @@ function Projects() {
                             <div className={styles.PortfoliosContainer}>
                                 <h3>{item.title}</h3>
                                     <div className={styles.PortfolioContent}>
-                                     <p className={styles.Content}>{item.content}</p>
-                                     <img src={item.IMG} alt='portfolio'></img>
-                                     <div className={styles.tech}>
+                                        <div className={styles.content}>
+                                             <p className={styles.Content}>{item.content}</p>
+                                        </div>
+                                        <div className={styles.containerImg}>
+                                            <img src={item.IMG} alt='portfolio'></img>
+                                         </div> 
+                                      <div className={styles.tech}>
                                         <h4>{item.h4Tecnologies}</h4>
                                         <button className={styles.techItem} style={htmlStyle}>{item.tecnologies1}</button>
                                         <button className={styles.techItem} style={cssStyle}>{item.tecnologies2}</button>
@@ -122,13 +126,13 @@ function Projects() {
                                      </div>
                                      <a className={styles.linkTo} href={item.Hrefto} target='_blank'>{item.aProject}</a>
                                      <a href={item.HrefGit} className={styles.linkTo} target='_blank'>{item.aRepository}</a>
-                             </div>
+                            </div>
                             }
                             isActive={index === activeIndex}>
                         </PortfolioItem>
                         ) : null
                     ))}
-                    <PortfolioNavigation
+                    <PortfolioNavigation className={styles.Buttons}
                         itemCount={portfolioItems.length}
                         activeIndex={activeIndex}
                         handleClick={handleCircleClick}>

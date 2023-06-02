@@ -6,12 +6,7 @@ import { BiMenu } from 'react-icons/bi'
 //Extensions
 import { Link, animateScroll as scroll } from 'react-scroll';
 import { useState, useEffect } from 'react';
-//Pages
-import Home from '../Pages/Home'
-import About from '../Pages/About'
-import Projects from '../Pages/Projects'
-import Contact from '../Pages/Contact'
-import Footer from './Footer.js'
+//Pages 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
 </style>
@@ -48,7 +43,7 @@ function Navbar(){
         <div className={styles.navbarContainer}>
             <div className={styles.Profiles}>
                 <FaHiking/>
-                <Link to='/about'><h1 id='navbar'>AndDev</h1></Link>
+                <Link to='about' smooth={true}><h1 id='navbar'>AndDev</h1></Link>
             </div>
             <div className={styles.Routes}>
                 <nav >
@@ -83,7 +78,7 @@ function Navbar(){
                >        
                 <BiMenu/>
                 <div className={styles.subNavbar}>
-              <ul>
+              <ul className={styles.responsiveIcons}>
                         <li className={styles.item}>
                           <Link to='home' smooth={true}><FaHome/></Link>  
                         </li>
