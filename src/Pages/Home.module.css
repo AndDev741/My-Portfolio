@@ -38,6 +38,18 @@
     color: inherit;
 }
 
+.curriculum {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.curriculum a{
+    margin-top: 10px;
+    color: inherit;
+}
+
 /* Animação de texto */
 
 @keyframes typing {

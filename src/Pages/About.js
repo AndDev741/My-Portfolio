@@ -1,8 +1,8 @@
 import styles from './About.module.css'
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaRegUserCircle,
-         FaLanguage, FaLaptopCode, FaNodeJs, FaGitAlt } from 'react-icons/fa'
+         FaLanguage, FaLaptopCode, FaNodeJs, FaGitAlt,  } from 'react-icons/fa'
 
-import { SiTypescript } from 'react-icons/si'
+import { SiTypescript,  SiTailwindcss, SiBootstrap, SiVuedotjs  } from 'react-icons/si'
 
 function About() {
 
@@ -35,6 +35,9 @@ function About() {
         const typeStyle = {
             color: '#7681c4'
         }
+        const bootStyle = {
+            color: '#513cb2'
+        }
 
         const marginP = {
             marginTop: '15%'
@@ -59,6 +62,10 @@ function About() {
                             <p>CSS 3</p>
                         </li>
                         <li className={styles.habilityItem}>
+                            <SiTailwindcss style={reactStyle} /> 
+                            <p>Tailwind CSS</p>
+                        </li>
+                        <li className={styles.habilityItem}>
                             <FaJsSquare style={jsStyle} /> 
                             <p>Javascript</p>
                         </li>
@@ -66,7 +73,14 @@ function About() {
                             <FaReact style={reactStyle} /> 
                             <p>React JS</p>
                         </li>
-                        <p>...</p>
+                        <li className={styles.futureItem}>
+                            <FaNodeJs style={nodeStyle}/>
+                            <p>Node</p>
+                        </li>
+                        <li className={styles.futureItem}>
+                            <FaGitAlt style={gitStyle}/>
+                            <p>Git and GitHub</p>
+                        </li>
                      </ul>
                     </div>
                 </div>
@@ -85,8 +99,8 @@ function About() {
                             </li>
                             <li className={styles.meItemSpecify}>
                                 <FaLaptopCode/>
-                                <p>I'm looking for my first</p>
-                                <strong>Experience</strong>
+                                <p>I'm looking for my second</p>
+                                <strong>Professional Experience</strong>
                             </li>
                         </ul>
                     </div>
@@ -95,12 +109,12 @@ function About() {
                     <h3>My skills in the near future</h3>
                     <ul className={styles.futureMain}>
                         <li className={styles.futureItem}>
-                            <FaNodeJs style={nodeStyle}/>
-                            <p>Node for backend</p>
+                            <SiVuedotjs style={nodeStyle}/>
+                            <p>Vue to enlarge knowledge </p>
                         </li>
                         <li className={styles.futureItem}>
-                            <FaGitAlt style={gitStyle}/>
-                            <p>Git for version control</p>
+                            <SiBootstrap style={bootStyle}/>
+                            <p>Bootstrap for more design </p>
                         </li>
                         <li className={styles.futureItem}>
                             <SiTypescript style={typeStyle}/>

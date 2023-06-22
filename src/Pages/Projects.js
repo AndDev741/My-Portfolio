@@ -1,11 +1,13 @@
 //Pages
 import PortfolioNavigation from '../Elements/PortfolioNavigation'
 import PortfolioItem from '../Elements/PortfolioItem';
-//Estilos
+//styles
 import styles from './Projects.module.css'
-import { FaCss3Alt, FaHtml5, FaJsSquare, FaReact } from 'react-icons/fa'
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaGitAlt,  } from 'react-icons/fa'
+import { SiTypescript,  SiTailwindcss, SiBootstrap, SiVuedotjs  } from 'react-icons/si'
 import weatherGIF from './PortfolioImages/WeatherAPIGif.gif'
-//Ferramentas
+import mindBlowingGIF from './IMG/mindblowingGIF.gif'
+//tools
 import {useState, useEffect} from 'react'
 
 function Projects() {
@@ -15,7 +17,7 @@ function Projects() {
     useEffect(() => {
         const timer = setInterval(() => {
             setActiveIndex((prevIndex) => (prevIndex + 1) % portfolioItems.length)
-        }, 30000)
+        }, 60000)
 
         return () => clearInterval(timer)
     }, []);
@@ -27,6 +29,23 @@ function Projects() {
     const portfolioItems = [
         {
             id: 0,
+            title: 'Mind Blowing Morning',
+            h4Tecnologies: 'Used tecnologies',
+            tecnologies1: <FaHtml5/>,
+            tecnologies2: <FaCss3Alt/>,
+            tecnologies3: <FaJsSquare/>,
+            tecnologies4: <FaReact/>,
+            tecnologies5: <SiTailwindcss/>,
+            tecnologies6: <SiTypescript/>,
+            IMG: mindBlowingGIF,
+            content: 'The mind blowing morning was my first professional experience. I worked in this volunter project making pages according to the figma design and adding some funcionalities to the code, it was a amazing project where i helped and learn a lot of frameworks, tips and more',
+            aProject: 'See the project',
+            aRepository: 'See the repository',
+            HrefGit: 'https://github.com/AndDev741/Mind-Blowing-Morning/tree/main',
+            Hrefto: 'https://mindblowingmornings.com/' 
+        },
+        {
+            id: 1,
             title: 'Weather Site with API',
             h4Tecnologies: 'Used tecnologies',
             tecnologies1: <FaHtml5/>,
@@ -40,22 +59,6 @@ function Projects() {
             aRepository: 'See the repository',
             HrefGit: 'https://github.com/AndDev741/WeatherAPI-Site',
             Hrefto: 'https://anddev741.github.io/WeatherAPI-Site/' 
-        },
-        {
-            id: 1,
-            title: 'Soon a project gonna be here',
-            h4Tecnologies: 'Soon tecnologies',
-            tecnologies1: <FaHtml5/>,
-            tecnologies2: <FaCss3Alt/>,
-            tecnologies3: <FaJsSquare/>,
-            tecnologies4: <FaReact/>,
-            IMG: 'https://i.pinimg.com/originals/66/4d/2a/664d2a0d4145a08503a0acfd5dd8366e.gif',
-            content: 'I\'m working day and nigth to fill this section with anothers project\
-            hope all you like',
-            aProject: 'Soon a project here',
-            aRepository: 'Soon a repository here',
-            HrefGit: 'https://github.com/AndDev741',
-            Hrefto: 'https://www.linkedin.com/in/anddev-%E3%83%84-b9915b275/?locale=en_US' 
         },
         {
             id: 1,
@@ -118,6 +121,8 @@ function Projects() {
                                         <button className={styles.techItem} style={cssStyle}>{item.tecnologies2}</button>
                                         <button className={styles.techItem} style={jsStyle}>{item.tecnologies3}</button>
                                         <button className={styles.techItem} style={reactStyle}>{item.tecnologies4}</button>
+                                        <button className={styles.techItem} style={reactStyle}>{item.tecnologies5}</button>
+                                        <button className={styles.techItem} style={cssStyle}>{item.tecnologies6}</button>
                                      </div>
                                      </div>
                                      <a className={styles.linkTo} href={item.Hrefto} target='_blank'>{item.aProject}</a>
