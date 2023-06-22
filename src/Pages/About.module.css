@@ -1,123 +1,252 @@
-.aboutContainer{
-    text-align: center;
-    height: 100vh;
-    animation: alternate forwards 2s ease-in-out;
-}
+@media screen and (min-width:900px){
 
-.aboutContainer h2 {
-    font-size: 2.2em;
-}
-
-.aboutContainer h3 {
-    font-size: 1.5em;
-    margin-top: 3%;
-}
-.aboutContainer h3:hover {
-    color: #FF7F50 ;
-}
-
-.aboutMain{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 10vh;
-}
-
-.aboutMe{
-    border: 2px solid #FF7F50;
-    height: 60vh;
-    width: 25vw;
-    border-radius: 6px;
-}
-
-.p {
-    font-size: 1.3em;
-}
-
-.myHabilitys{
-    border: 2px solid #FF7F50;
-    height: 60vh;
-    width: 25vw;
-    border-radius: 6px;
-}
-
-.myHabilitys ul{
-    margin-top: 5%;
-    list-style: none;
-    font-size: 1.4em;
-
-}
-
-.habilityItem {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 5%;
-}
-
-.habilityItem svg{
-    margin-right: 2%;
+    .aboutContainer{
+        text-align: center;
+        height: 100vh;
+        animation: alternate forwards 2s ease-in-out;
+    }
+    
+    .aboutContainer h2 {
+        color: #FF7F50;
+        font-size: 2.2em;
+    }
+    
+    .aboutContainer h3 {
+        font-size: 1.5em;
+        margin-top: 3%;
+    }
+    .aboutContainer h3:hover {
+        color: #FF7F50 ;
+    }
+    
+    .aboutMain{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10vh;
+    }
+    
+    .aboutMe{
+        border: 2px solid #FF7F50;
+        height: 60vh;
+        width: 25vw;
+        border-radius: 6px;
+    }
+    
+    .p {
+        font-size: 1.3em;
+    }
+    
+    .myHabilitys{
+        border: 2px solid #FF7F50;
+        height: 60vh;
+        width: 25vw;
+        border-radius: 6px;
+    }
+    
+    .myHabilitys ul{
+        margin-top: 5%;
+        list-style: none;
+        font-size: 1.4em;
+    
+    }
+    
+    .habilityItem {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+    
+    .habilityItem svg{
+        margin-right: 2%;
+        
+    }
+    
+    .meMain{
+        margin-top: 5%;
+        list-style: none;
+        font-size: 1.4em;
+        
+    }
+    
+    .meItem svg{
+        margin-right: 2%;
+        color: #FF7F50;
+    }
+    
+    .meItem{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1%;
+    }
+    
+    .meItemSpecify{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+    }
+    
+    .meItemSpecify svg{
+        font-size: 1.5em;
+        color:   #cd6155   ;
+    }
+    
+    .meItemSpecify p{
+        margin-top: 2%;
+    }
+    
+    .toLearn{
+        border: 2px solid #FF7F50;
+        height: 60vh;
+        width: 25vw;
+        border-radius: 6px;
+    }
+    
+    .futureMain{
+        margin-top: 5%;
+        list-style: none;
+        font-size: 1.4em;
+    }
+    
+    .futureItem{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+    
+    .futureItem svg{
+        margin-right: 2%;
+    }
     
 }
 
-.meMain{
-    margin-top: 5%;
-    list-style: none;
-    font-size: 1.4em;
+@media screen and (max-width: 900px){
+    .aboutContainer{
+        text-align: center;
+        height: 150vh;
+    }
     
+    .aboutContainer h2 {
+        color: #FF7F50;
+        font-size: 2.2em;
+        
+    }
+    
+    .aboutContainer h3 {
+        font-size: 1.5em;
+        margin-top: 3%;
+    }
+    .aboutContainer h3:hover {
+        color: #FF7F50 ;
+    }
+    
+    .aboutMain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 10vh;
+    }
+    
+    .aboutMe{
+        border: 2px solid #FF7F50;
+        height: 100%;
+        width: 80vw;
+        margin-bottom: 5%;
+        border-radius: 6px;
+    }
+    
+    .p {
+        font-size: 1.3em;
+    }
+    
+    .myHabilitys{
+        border: 2px solid #FF7F50;
+        height: 100%;
+        width: 80vw;
+        border-radius: 6px;
+        margin-bottom: 5%;
+    }
+    
+    .myHabilitys ul{
+        margin-top: 5%;
+        list-style: none;
+        font-size: 1.5em;
+    
+    }
+    
+    .habilityItem {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+    
+    .habilityItem svg{
+        margin-right: 2%;
+        
+    }
+    
+    .meMain{
+        margin-top: 5%;
+        list-style: none;
+        font-size: 1.4em;
+        
+    }
+    
+    .meItem svg{
+        margin-right: 2%;
+        color: #FF7F50;
+    }
+    
+    .meItem{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1%;
+    }
+    
+    .meItemSpecify{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+    }
+    
+    .meItemSpecify svg{
+        font-size: 1.5em;
+        color:   #cd6155   ;
+    }
+    
+    .meItemSpecify p{
+        margin-top: 2%;
+    }
+    
+    .toLearn{
+        border: 2px solid #FF7F50;
+        border-radius: 6px;
+        height: 100%;
+        width: 80vw;
+        margin-bottom: 5%;
+    }
+    
+    .futureMain{
+        margin-top: 5%;
+        list-style: none;
+        font-size: 1.4em;
+    }
+    
+    .futureItem{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+    
+    .futureItem svg{
+        margin-right: 2%;
+    }
 }
-
-.meItem svg{
-    margin-right: 2%;
-    color: #FF7F50;
-}
-
-.meItem{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1%;
-}
-
-.meItemSpecify{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5%;
-}
-
-.meItemSpecify svg{
-    font-size: 1.5em;
-    color:   #cd6155   ;
-}
-
-.meItemSpecify p{
-    margin-top: 2%;
-}
-
-.toLearn{
-    border: 2px solid #FF7F50;
-    height: 60vh;
-    width: 25vw;
-    border-radius: 6px;
-}
-
-.futureMain{
-    margin-top: 5%;
-    list-style: none;
-    font-size: 1.4em;
-}
-
-.futureItem{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 5%;
-}
-
-.futureItem svg{
-    margin-right: 2%;
-}
-
-
-
-
