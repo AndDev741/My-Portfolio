@@ -7,7 +7,8 @@
 -CSS <br/>
 -Some frameworks and librarys from react <br/>
  <br/>
-01/06/2023-
+01/06/2023-  <br/>
+ <br/>
 - Hello guys, this is the 1.0 version of <a href='https://myportfolio1-1-git-main-11-anddev-portfolio.vercel.app/'> My personal Portfolio </a> created with React js and some librarys. <br/>
 - By now, i'm working on a new version to make the page more responsive for small screens. <br/>
 - I hope all you like, any question contact me :D
