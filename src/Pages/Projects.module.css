@@ -1,6 +1,92 @@
+@media screen and (min-width: 900px) {
+    .projectContainer {
+        text-align: center;
+        height: 100vh;
+    }
+    
+    .projectMain {
+        display: flex;
+        justify-content: center;
+        margin-top: 5vh;
+    }
+    
+    .PortfoliosContainer {
+        width: 90vw;
+        height: 80vh;
+    }
+    
+    .PortfoliosContainer h3{
+        font-size: 1.5em;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    
+    .PortfoliosContainer img{
+        width: 55vw;
+        height: 65vh;
+        border-radius: 12px;
+    }
+    
+    .PortfolioContent{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .linkTo{
+        text-decoration: underline;
+        cursor: pointer;
+        color: inherit;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    
+    
+    
+    .Content {
+        display: flex;
+        padding: 2%;
+        border: 2px solid #FF7F50;
+        border-radius: 12px;
+        width: 15vw;
+        height: 100%;
+        font-size: 1.2em;
+    }
+    
+    .tech {
+        width: 15vw;
+        border: 2px solid #FF7F50;
+        border-radius: 12px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .techItem {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5em;
+        width: 5vw;
+        height: 5vw;
+        border-radius: 50%;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .techItem svg{
+        font-size: 2em
+    }
+    
+    
+}
+
+@media screen and (max-width: 900px) {
+    
 .projectContainer {
+    margin-top: 20%;
     text-align: center;
-    height: 100vh;
+    height: 140vh;
 }
 
 .projectMain {
@@ -17,18 +103,24 @@
 .PortfoliosContainer h3{
     font-size: 1.5em;
     margin-top: 1%;
-    margin-bottom: 1%;
+    margin-bottom: 8%;
+}
+
+.PortfoliosContainer{
+    border-radius: 12px;
 }
 
 .PortfoliosContainer img{
-    width: 55vw;
-    height: 65vh;
-    border-radius: 12px;
+    width: 90vw;
+    height: 30vh;
 }
 
 .PortfolioContent{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-around;
+
 }
 
 .linkTo{
@@ -43,36 +135,36 @@
 
 .Content {
     display: flex;
+    align-items: center;
     padding: 2%;
     border: 2px solid #FF7F50;
     border-radius: 12px;
-    width: 15vw;
+    width: 80vw;
+    height: 30vh;
     font-size: 1.2em;
+    margin-bottom: 10%;
 }
 
 .tech {
-    width: 15vw;
+    width: 80vw;
+    height: 30vh;
     border: 2px solid #FF7F50;
     border-radius: 12px;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-top: 35%;
 }
 
 .techItem {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5em;
-    width: 5vw;
-    height: 5vw;
+    font-size: 2em;
     border-radius: 50%;
     background-color: transparent;
     border: none;
 }
 
-.techItem svg{
-    font-size: 2em
 }
-
