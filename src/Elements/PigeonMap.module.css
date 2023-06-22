@@ -1,10 +1,49 @@
-.map{
-    width: 42vw;
-    height: 85vh;
-    margin-top: 5%;
+@media screen and (min-width: 900px){
+    .map{
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        align-items: center;
+        margin-top: 5%;
+    }
+    
+    .map h2{
+        margin-top: 3%;
+    }
+    
+    .pigeonMap{
+        display: flex;
+        align-items: center;
+        margin-bottom: 3%;
+        width: 40vw;
+        height: 90%;
+        font-size: 1.5em;
+        margin-top: 5%;
+    }
+    
 }
 
-.mapTitle{
-    margin-bottom: 3%;
-    font-size: 1.5em;
+@media screen and (max-width: 899px) {
+    .map{
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        align-items: center;
+        margin-top: 5%;
+    }
+    
+    .map h2{
+        margin-top: 3%;
+    }
+    
+    .pigeonMap{
+        display: flex;
+        align-items: center;
+        margin-bottom: 3%;
+        width: 90vw;
+        height: 80%;
+        font-size: 1.5em;
+        margin-top: 5%;
+    }
+    
 }
