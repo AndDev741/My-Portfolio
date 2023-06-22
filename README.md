@@ -22,6 +22,6 @@
 <h2 align="center" color="gold"> Is released now the 1.2 version with some changes in the home, about and projects page :D </h2>
 22/06/2023- <br/>
 <br/>
-- Home page now have my curriculum
-- About pages now have more habilitys
-- A new project added to the projects page
+- Home page now have my curriculum <br/>
+- About pages now have more habilitys <br/>
+- A new project added to the projects page <br/>
