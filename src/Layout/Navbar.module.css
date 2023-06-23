@@ -172,7 +172,14 @@
     animation: rotateIcon 1s ease-in-out;
 }
 
+.menuIcon ul{
+    display: flex;
+    flex-direction: row;
+}
+
 .IconMenu{
+    display: flex;
+    flex-direction: row;
     color: white;
     max-width: 3em;
     max-height: 1em;

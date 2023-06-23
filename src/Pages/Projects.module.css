@@ -1,3 +1,5 @@
+
+
 @media screen and (min-width: 900px) {
     .projectContainer {
         text-align: center;
@@ -30,6 +32,7 @@
     .PortfolioContent{
         display: flex;
         justify-content: space-around;
+        height: 70vh;
     }
     
     .linkTo{
@@ -84,7 +87,7 @@
 @media screen and (max-width: 900px) {
     
 .projectContainer {
-    margin-top: 20%;
+    margin-top: 50vh;
     text-align: center;
     height: 140vh;
 }
@@ -112,7 +115,7 @@
 
 .PortfoliosContainer img{
     width: 90vw;
-    height: 30vh;
+    height: 400px;
 }
 
 .PortfolioContent{
@@ -165,6 +168,14 @@
     border-radius: 50%;
     background-color: transparent;
     border: none;
+    border-bottom: 5%;
 }
 
+}
+
+@media screen and (max-width: 390px) {
+    .projectContainer {
+        margin-top: 78vh;
+        height: 155vh;
+    }
 }

@@ -4,6 +4,7 @@
         text-align: center;
         height: 100vh;
         animation: alternate forwards 2s ease-in-out;
+        
     }
     
     .aboutContainer h2 {
@@ -126,7 +127,8 @@
 @media screen and (max-width: 900px){
     .aboutContainer{
         text-align: center;
-        height: 150vh;
+        height: 140vh;
+        margin-top: 18px;
     }
     
     .aboutContainer h2 {
@@ -249,4 +251,12 @@
     .futureItem svg{
         margin-right: 2%;
     }
+}
+
+@media screen and (max-width: 650px){
+    .aboutContainer{
+        text-align: center;
+        height: 100vh;
+    }
+
 }

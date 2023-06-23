@@ -4,6 +4,8 @@ import MeImg from './IMG/Me.jpeg'
 import TypeWriterAnimation from '../Elements/TypeWriterAnimation'
 import { FaLinkedin, FaGithub, FaStackOverflow, FaLink   } from 'react-icons/fa'
 
+import curriculum from './IMG/André Luiz front end curriculum.pdf'
+
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
 </style>
@@ -24,7 +26,7 @@ function Home() {
             </div>
             <div className={styles.curriculum}>
                 <h3>Download my curriculum</h3>
-               <a href='./IMG/André Luiz front end curriculum.pdf' download><FaLink/><span>André Luiz Dev front end curriculum</span> </a>
+               <a href={curriculum} download><FaLink/><span>André Luiz Dev front end curriculum</span> </a>
             </div>
         </div>
     )
